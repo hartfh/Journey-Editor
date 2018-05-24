@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html id="app" lang="en-US" prefix="og: http://ogp.me/ns#">
+	<meta charset="UTF-8" />
+	<title>Journey Editor</title>
+	<head>
+		<style>
+			* {
+				box-sizing: border-box;
+				margin: 0;
+				padding: 0;
+			}
+			html {
+				background: #e0e0e0;
+			}
+			body {
+				float: left;
+				width: 100%;
+			}
+			body, main {
+				float: left;
+				width: 100%;
+			}
+			#app-container {
+				border: 1px solid red;
+				display: table;
+				padding: 30px;
+				width: 100%;
+			}
+			#app-header {
+				background: white;
+				border: 1px solid blue;
+				float: left;
+				margin-bottom: 30px;
+				padding: 20px;
+				width: 100%;
+			}
+			#app-body {
+				background: white;
+				border: 1px solid green;
+				float: left;
+				max-height: 700px;
+				overflow: scroll;
+				padding: 20px;
+				width: 1200px;
+			}
+			#canvas {
+				border: 1px solid red;
+				image-rendering: -moz-crisp-edges;
+				image-rendering: -webkit-crisp-edges;
+				image-rendering: pixelated;
+			}
+			#app-sidebar {
+				background: white;
+				border: 1px solid orange;
+				float: right;
+				padding: 20px;
+				width: calc(100% - 1250px);
+			}
+			#app-sidebar .tile {
+				border: 1px solid blue;
+				float: left;
+				height: 60px;
+				margin: 3px;
+				width: 60px;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+		</header>
+		<main>
+			<div id="app-container"></div>
+		</main>
+		<footer>
+			<script type="text/javascript" src="journey-editor.js"></script>
+		</footer>
+	</body>
+</html>

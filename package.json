@@ -1,0 +1,23 @@
+{
+  "name": "journey-editor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+	"start":	"electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hartfh/Journey-Editor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hartfh/Journey-Editor/issues"
+  },
+  "homepage": "https://github.com/hartfh/Journey-Editor#readme",
+  "dependencies": {
+    "electron": "^2.0.2"
+  }
+}
